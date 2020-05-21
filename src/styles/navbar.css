@@ -1,0 +1,44 @@
+.nav-link{
+  color: #fff !important;
+}
+
+@media screen and (max-width: 1450px) {
+  .nav-link{
+    text-shadow: 0.5px 0.5px 3px #000000;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  nav {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .nav-link{
+    color: #000 !important;
+    text-shadow: none;
+  }
+  .nav-item, .nav-form {
+    padding-top: 8px;
+  }
+  .login{
+    color: #6B73FF !important;
+  }
+}
+
+
+
+
+
+
+
+
+/* @media screen and (max-width: 1080px) {
+ 
+  
+}
+@media screen and (max-width: 992px) {
+  
+}
+
+@media screen and (max-width: 768px) {
+  
+} */
